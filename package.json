@@ -1,0 +1,23 @@
+{
+  "name": "miniharp",
+  "version": "0.0.0",
+  "description": "Mini Harp Static Server, a web-server that serves static files and preprocesses jade to HTML, less to css, and CoffeeScript to JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mikuazusa/fork2-mini-harp.git"
+  },
+  "keywords": [
+    "harp",
+    "static",
+    "CoffeeScript"
+  ],
+  "author": "Tonny Mo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikuazusa/fork2-mini-harp/issues"
+  }
+}
