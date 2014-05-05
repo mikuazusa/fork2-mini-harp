@@ -19,5 +19,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mikuazusa/fork2-mini-harp/issues"
+  },
+  "bin": {
+	"mini-harp": "./bin/mini-harp.js"
   }
 }
