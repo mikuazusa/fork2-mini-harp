@@ -1,4 +1,4 @@
-createMiniHarp = () ->
+createMiniHarp = (port) ->
 	connect = require("connect")
 	app = connect()
 	return app
