@@ -21,6 +21,13 @@
     "url": "https://github.com/mikuazusa/fork2-mini-harp/issues"
   },
   "bin": {
-	"mini-harp": "./bin/mini-harp.js"
+    "mini-harp": "./bin/mini-harp.js"
+  },
+  "dependencies": {
+    "connect": "~3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1",
+    "mocha": "~1.18.2"
   }
 }
