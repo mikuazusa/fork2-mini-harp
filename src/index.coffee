@@ -3,10 +3,10 @@ createMiniHarp = (path,port) ->
 	serveStatic = require("serve-static")
 	app = connect()
 
+	console.log("MiniHarp start at 4000...")
 	app.use((request, response, next) ->
-		url = request.url
-		console.log url	  
-		if url is "/current-time"			    
+		console.log request.url	  
+		if request.url is "/current-time"			    
 			date = (new Date()).toISOString()					    
 			response.end date + "\n"									  
 		else													    
