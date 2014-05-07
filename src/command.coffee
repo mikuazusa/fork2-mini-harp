@@ -1,7 +1,9 @@
-createMiniHarp = require("../index")
-argv = require("minist")(process.argv.splice(2))
+createMiniHarp = require("../lib/index")
+argv = require("minimist")(process.argv.splice(2))
+port = argv.port || 4000
+path = argv._[0] || process.cwd()
 
 command = () ->
-	console.log createMiniHarp(argv.port)
+	createMiniHarp(path,port)
 
 module.exports = command
