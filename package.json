@@ -24,7 +24,8 @@
     "mini-harp": "bin/mini-harp.js"
   },
   "dependencies": {
-    "connect": "~3.0.0-rc.1"
+    "connect": "~3.0.0-rc.1",
+    "serve-static": "~1.0.3"
   },
   "devDependencies": {
     "coffee-script": "~1.7.1",
